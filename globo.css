@@ -1,0 +1,147 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family: 'Encode Sans', sans-serif;
+    width: 1250px;
+
+}
+.logo{
+    width: 100px;
+}
+.principal{
+    width: 50vw;
+    border-right: 1px solid #f5f6f7;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+.image-politic{
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+.image-sports, .image-emissora-globo{
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+}
+main{
+    display: flex;
+    padding: 0 50px;
+}
+.name-page{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    border-bottom:1px solid #f5f6f7;
+}
+.container-options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:1px solid #f5f6f7;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+.name-page a{
+    color: blue;
+}
+.g1 a{
+    color: red;
+}
+.oglobo a{
+    color: blue;
+}
+.valor a{
+    color: green;
+}
+.ge a{
+    color: greenyellow;
+}
+.cartola a{
+    color: orange;
+}
+.globoplay a{
+    color: red;
+}
+.dropz a{
+    color: pink;
+}
+.gshow a{
+    color: rgb(189, 189, 33);
+}
+.quem a{
+    color: black;
+}
+.receitas a{
+    color: blueviolet;
+}
+.text-principal a{
+    color: #c4160c;
+    font-size: 52px;
+    text-align: justify;
+}
+
+.text-description{
+    font-size: 18px;
+    border-bottom:1px solid #f5f6f7;
+}
+.text-description-one, .text-description-two{
+    color: #303134;
+}
+.container-news-politic{
+    display: flex;
+    column-gap: 30px;
+}
+
+.one{
+    border-bottom:1px solid #f5f6f7;
+}
+
+.title-img-politic, .title-politic{
+    color: red;
+}
+
+.title-img-sports{
+    color: green;
+}
+
+.title-img-emissora-globo{
+    color: orange;
+}
+
+.container-news-sports{
+    padding: 20px;
+    border-right: 1px solid #f5f6f7;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.container-news-emissora-globo{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.news-emissora-globo-first, .news-emissora-globo-second, .news-emissora-globo-third{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px; 
+}
+.news-sports-first, .news-sports-second, .news-sports-third{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px; 
+}
+
+.text-matter, .text-matter-complement{
+    color: #303134;
+}
